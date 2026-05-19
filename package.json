@@ -1,0 +1,19 @@
+{
+    "name": "deno-universal-ai-forwarder",
+    "version": "1.0.0",
+    "description": "A secure, provider-agnostic reverse proxy for 9Router deployed on Deno Deploy.",
+    "main": "main.ts",
+    "type": "module",
+    "scripts": {
+        "start": "deno run --allow-net --allow-env main.ts",
+        "format": "deno fmt main.ts",
+        "lint": "deno lint main.ts"
+    },
+    "keywords": [
+        "deno",
+        "proxy",
+        "serverless"
+    ],
+    "author": "",
+    "license": "MIT"
+}
