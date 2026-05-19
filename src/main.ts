@@ -1,6 +1,4 @@
-import { serve } from "jsr:@std/http/server";
-
-serve(async (req: Request) => {
+Deno.serve(async (req: Request) => {
   const url = new URL(req.url);
 
   // 1. 提供一个基础的健康检查页面
