@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land";
+import { serve } from "jsr:@std/http/server";
 
 serve(async (req: Request) => {
   const url = new URL(req.url);
