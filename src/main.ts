@@ -38,7 +38,8 @@ Deno.serve(async (req: Request) => {
     "anthropic-beta",
     // Mistral / Azure 等其他厂商可能需要的通用头
     "api-key",
-    "x-client-id"
+    "x-client-id",
+    "x-goog-api-key"
   ];
 
   for (const [key, value] of req.headers.entries()) {
